@@ -1,4 +1,4 @@
-import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 
 const orderSchema = mongoose.Schema(
   {
@@ -29,7 +29,7 @@ const orderSchema = mongoose.Schema(
         type: String,
         required: true,
       },
-      postalCOde: {
+      postalCode: {
         type: String,
         required: true,
       },
