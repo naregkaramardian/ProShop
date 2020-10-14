@@ -6,7 +6,7 @@ import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
 // components
 import Rating from '../components/Rating'
 import Message from '../components/Message'
-import Loader from '../components/loader'
+import Loader from '../components/Loader'
 
 import { listProductDetails } from '../actions/productActions'
 
